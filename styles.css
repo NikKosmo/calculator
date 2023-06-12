@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+#app-body {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    border-radius: 25px;
+    background-color: black;
+    padding: 10px;
+    gap: 10px
+}
+
+#display {
+    height: 80px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-color: darkslategray;
+    color: white;
+    font-size: 48px;
+    padding: 10px;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.row {
+    display: flex;
+    gap: 5px;
+}
+
+.button {
+    display: flex;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 48px;
+}
+
+.number {
+    background-color: gray;
+}
+
+.action {
+    background-color: orange;
+}

@@ -17,12 +17,17 @@ body {
     height: 80px;
     border-radius: 25px;
     display: flex;
+    flex-direction: column;
     justify-content: flex-end;
     align-items: flex-end;
     background-color: darkslategray;
     color: white;
     font-size: 48px;
     padding: 10px;
+}
+
+#in-memory {
+    font-size: 24px;
 }
 
 #buttons {
